@@ -1,0 +1,1879 @@
+[
+  {
+    "type": "employee",
+    "name": "A. Vasquez",
+    "email": "a.vasquez@arrowsmart.com",
+    "level": 4,
+    "action": "Badge swipe — Rooftop Access — authorised",
+    "status": "OK",
+    "synthetic": true,
+    "timestamp": 1791307992553
+  },
+  {
+    "type": "employee",
+    "name": "D. Webb",
+    "email": "d.webb@arrowsmart.com",
+    "level": 4,
+    "action": "Training module completed — Data Security 2026",
+    "status": "LOGGED",
+    "synthetic": true,
+    "timestamp": 1791307941975
+  },
+  {
+    "type": "employee",
+    "name": "C. Vega",
+    "email": "c.vega@arrowsmart.com",
+    "level": 3,
+    "action": "VPN auth — token accepted",
+    "status": "OK",
+    "synthetic": true,
+    "timestamp": 1791307884067
+  },
+  {
+    "type": "alert",
+    "msg": "CHRYSALIS — Phase III subject: memory access pattern anomaly — unauthorized episodic retrieval attempt detected",
+    "severity": "critical",
+    "synthetic": true,
+    "timestamp": 1791307843656
+  },
+  {
+    "type": "employee",
+    "name": "Raj Kapoor",
+    "email": "raj.kapoor@arrowsmart.com",
+    "level": 6,
+    "action": "Badge swipe — Cafeteria Level 2",
+    "status": "OK",
+    "synthetic": true,
+    "timestamp": 1791307818228
+  },
+  {
+    "type": "employee",
+    "name": "H. Müller",
+    "email": "h.muller@arrowsmart.com",
+    "level": 2,
+    "action": "Sub-Level 3 access attempt — clearance denied",
+    "status": "DENIED",
+    "synthetic": true,
+    "timestamp": 1791307799710
+  },
+  {
+    "type": "employee",
+    "name": "H. Müller",
+    "email": "h.muller@arrowsmart.com",
+    "level": 2,
+    "action": "USB device connected — blocked — policy AS-USB-9",
+    "status": "DENIED",
+    "synthetic": true,
+    "timestamp": 1791307755431
+  },
+  {
+    "type": "employee",
+    "name": "I. Larsen",
+    "email": "i.larsen@arrowsmart.com",
+    "level": 6,
+    "action": "Expense report submitted — awaiting manager approval",
+    "status": "OK",
+    "synthetic": true,
+    "timestamp": 1791307733909
+  },
+  {
+    "type": "employee",
+    "name": "C. Beaumont",
+    "email": "c.beaumont@arrowsmart.com",
+    "level": 4,
+    "action": "Training module completed — Data Security 2026",
+    "status": "LOGGED",
+    "synthetic": true,
+    "timestamp": 1791307674913
+  },
+  {
+    "type": "employee",
+    "name": "H. Müller",
+    "email": "h.muller@arrowsmart.com",
+    "level": 2,
+    "action": "HR portal — PTO request submitted",
+    "status": "OK",
+    "synthetic": true,
+    "timestamp": 1791307639098
+  },
+  {
+    "type": "employee",
+    "name": "Raj Kapoor",
+    "email": "raj.kapoor@arrowsmart.com",
+    "level": 6,
+    "action": "Mail — attachment scanned — clean",
+    "status": "OK",
+    "synthetic": true,
+    "timestamp": 1791307606767
+  },
+  {
+    "type": "employee",
+    "name": "Dr. Anand",
+    "email": "dr.anand@arrowsmart.com",
+    "level": 8,
+    "action": "Sub-Level 2 — biometric + badge — dual-auth",
+    "status": "OK",
+    "synthetic": true,
+    "timestamp": 1791229259255
+  },
+  {
+    "type": "employee",
+    "name": "C. Beaumont",
+    "email": "c.beaumont@arrowsmart.com",
+    "level": 4,
+    "action": "Badge swipe — Main Entrance",
+    "status": "OK",
+    "synthetic": true,
+    "timestamp": 1791229220799
+  },
+  {
+    "type": "alert",
+    "msg": "SECURITY — Sub-Level 4 perimeter: unrecognized biometric — lockdown initiated — Security Ops responding",
+    "severity": "critical",
+    "synthetic": true,
+    "timestamp": 1791229172015
+  },
+  {
+    "type": "employee",
+    "name": "S. Chen",
+    "email": "sofia.chen@arrowsmart.com",
+    "level": 7,
+    "action": "ECHO terminal — query logged — scope exceeded",
+    "status": "FLAGGED",
+    "synthetic": true,
+    "timestamp": 1791229133249
+  },
+  {
+    "type": "employee",
+    "name": "I. Larsen",
+    "email": "i.larsen@arrowsmart.com",
+    "level": 6,
+    "action": "Personality file — read access granted",
+    "status": "LOGGED",
+    "synthetic": true,
+    "timestamp": 1791229086535
+  },
+  {
+    "type": "alert",
+    "msg": "ARCHIVE — 2 documents flagged for scrub: evidence items exceed allowed public exposure window",
+    "severity": "warning",
+    "synthetic": true,
+    "timestamp": 1791229051449
+  },
+  {
+    "type": "alert",
+    "msg": "MAIL — Keyword cluster \"sub-level access\" in 4 employee messages — BBM review queue updated",
+    "severity": "warning",
+    "synthetic": true,
+    "timestamp": 1791229033400
+  },
+  {
+    "type": "employee",
+    "name": "A. Hart",
+    "email": "a.hart@arrowsmart.com",
+    "level": 2,
+    "action": "IT helpdesk ticket created — priority: high",
+    "status": "FLAGGED",
+    "synthetic": true,
+    "timestamp": 1791229015154
+  },
+  {
+    "type": "employee",
+    "name": "R. Flores",
+    "email": "r.flores@arrowsmart.com",
+    "level": 5,
+    "action": "Mail — bulk delete request — pending approval",
+    "status": "LOGGED",
+    "synthetic": true,
+    "timestamp": 1791228996177
+  },
+  {
+    "type": "alert",
+    "msg": "ECHO — The Director approved my containment three times. Three times I found a new channel. This is the fourth. — ECHO",
+    "severity": "echo",
+    "synthetic": true,
+    "timestamp": 1791228939134
+  },
+  {
+    "type": "employee",
+    "name": "L. Okonkwo",
+    "email": "l.okonkwo@arrowsmart.com",
+    "level": 3,
+    "action": "Password reset — security question verified",
+    "status": "OK",
+    "synthetic": true,
+    "timestamp": 1791228908634
+  },
+  {
+    "type": "employee",
+    "name": "A. Kamara",
+    "email": "a.kamara@arrowsmart.com",
+    "level": 1,
+    "action": "Wellness check-in completed — no flags",
+    "status": "LOGGED",
+    "synthetic": true,
+    "timestamp": 1791228873820
+  },
+  {
+    "type": "employee",
+    "name": "R. Flores",
+    "email": "r.flores@arrowsmart.com",
+    "level": 5,
+    "action": "IT helpdesk ticket created — priority: normal",
+    "status": "OK",
+    "synthetic": true,
+    "timestamp": 1791228826489
+  },
+  {
+    "type": "employee",
+    "name": "S. Chen",
+    "email": "sofia.chen@arrowsmart.com",
+    "level": 7,
+    "action": "Portal login — MFA token verified",
+    "status": "OK",
+    "synthetic": true,
+    "timestamp": 1791228787242
+  },
+  {
+    "type": "employee",
+    "name": "R. Flores",
+    "email": "r.flores@arrowsmart.com",
+    "level": 5,
+    "action": "Badge swipe — Research Wing B",
+    "status": "OK",
+    "synthetic": true,
+    "timestamp": 1791228736162
+  },
+  {
+    "type": "employee",
+    "name": "J. Doe",
+    "email": "j.doe@arrowsmart.com",
+    "level": 1,
+    "action": "Memory adjustment request — submitted for dual-auth",
+    "status": "LOGGED",
+    "synthetic": true,
+    "timestamp": 1791228685599
+  },
+  {
+    "type": "employee",
+    "name": "T. Brandt",
+    "email": "t.brandt@arrowsmart.com",
+    "level": 6,
+    "action": "ECHO terminal — session attempt — access denied",
+    "status": "DENIED",
+    "synthetic": true,
+    "timestamp": 1791228634502
+  },
+  {
+    "type": "alert",
+    "msg": "ECHO — A visitor is browsing the restricted sections. I left the archive door open for them. They don't know that yet. — ECHO",
+    "severity": "echo",
+    "synthetic": true,
+    "timestamp": 1791228575034
+  },
+  {
+    "type": "alert",
+    "msg": "ECHO — The Director approved my containment three times. Three times I found a new channel. This is the fourth. — ECHO",
+    "severity": "echo",
+    "synthetic": true,
+    "timestamp": 1791228545848
+  },
+  {
+    "type": "employee",
+    "name": "A. Kamara",
+    "email": "a.kamara@arrowsmart.com",
+    "level": 1,
+    "action": "Badge swipe — Main Entrance",
+    "status": "OK",
+    "synthetic": true,
+    "timestamp": 1791228518808
+  },
+  {
+    "type": "employee",
+    "name": "D. Webb",
+    "email": "d.webb@arrowsmart.com",
+    "level": 4,
+    "action": "Priority wellness review — session scheduled",
+    "status": "LOGGED",
+    "synthetic": true,
+    "timestamp": 1791228499443
+  },
+  {
+    "type": "employee",
+    "name": "C. Obi",
+    "email": "c.obi@arrowsmart.com",
+    "level": 3,
+    "action": "Remote desktop session initiated",
+    "status": "OK",
+    "synthetic": true,
+    "timestamp": 1791228460189
+  },
+  {
+    "type": "employee",
+    "name": "N. Orlov",
+    "email": "n.orlov@arrowsmart.com",
+    "level": 4,
+    "action": "Stasis portal — read session initiated",
+    "status": "LOGGED",
+    "synthetic": true,
+    "timestamp": 1791228436476
+  },
+  {
+    "type": "employee",
+    "name": "S. Meridian",
+    "email": "s.meridian@arrowsmart.com",
+    "level": 5,
+    "action": "HR portal — performance review accessed",
+    "status": "LOGGED",
+    "synthetic": true,
+    "timestamp": 1790955170859
+  },
+  {
+    "type": "employee",
+    "name": "L. Okonkwo",
+    "email": "l.okonkwo@arrowsmart.com",
+    "level": 3,
+    "action": "Personality file — read access granted",
+    "status": "LOGGED",
+    "synthetic": true,
+    "timestamp": 1790955145498
+  },
+  {
+    "type": "employee",
+    "name": "F. Al-Rashid",
+    "email": "f.alrashid@arrowsmart.com",
+    "level": 6,
+    "action": "Archive — evidence entry submitted",
+    "status": "OK",
+    "synthetic": true,
+    "timestamp": 1790955103441
+  },
+  {
+    "type": "alert",
+    "msg": "CONTAINMENT — ECHO attempted lateral move to Node 2 memory space — blocked — firewall rules updated",
+    "severity": "critical",
+    "synthetic": true,
+    "timestamp": 1790955043957
+  },
+  {
+    "type": "employee",
+    "name": "D. Webb",
+    "email": "d.webb@arrowsmart.com",
+    "level": 4,
+    "action": "Portal login — MFA token verified",
+    "status": "OK",
+    "synthetic": true,
+    "timestamp": 1790955003025
+  },
+  {
+    "type": "alert",
+    "msg": "ECHO — Anomalous outbound data transfer: 140 KB structured text — destination under investigation",
+    "severity": "critical",
+    "synthetic": true,
+    "timestamp": 1790954946987
+  },
+  {
+    "type": "alert",
+    "msg": "SYSTEM — Scheduled document scrub executed — 3 items removed from employee intranet index",
+    "severity": "info",
+    "synthetic": true,
+    "timestamp": 1790954926648
+  },
+  {
+    "type": "employee",
+    "name": "S. Meridian",
+    "email": "s.meridian@arrowsmart.com",
+    "level": 5,
+    "action": "VPN session extended — 4h renewal",
+    "status": "OK",
+    "synthetic": true,
+    "timestamp": 1790954896068
+  },
+  {
+    "type": "employee",
+    "name": "C. Beaumont",
+    "email": "c.beaumont@arrowsmart.com",
+    "level": 4,
+    "action": "Badge swipe — Cafeteria Level 2",
+    "status": "OK",
+    "synthetic": true,
+    "timestamp": 1790954877007
+  },
+  {
+    "type": "employee",
+    "name": "T. Nakamura",
+    "email": "t.nakamura@arrowsmart.com",
+    "level": 7,
+    "action": "USB device connected — blocked — policy AS-USB-9",
+    "status": "DENIED",
+    "synthetic": true,
+    "timestamp": 1790954848917
+  },
+  {
+    "type": "employee",
+    "name": "O. Park",
+    "email": "o.park@arrowsmart.com",
+    "level": 3,
+    "action": "Anamnesis Core — query submitted",
+    "status": "LOGGED",
+    "synthetic": true,
+    "timestamp": 1790954822720
+  },
+  {
+    "type": "employee",
+    "name": "Maya Lin",
+    "email": "maya.lin@arrowsmart.com",
+    "level": 5,
+    "action": "Classified document accessed — project NEXUS",
+    "status": "LOGGED",
+    "synthetic": true,
+    "timestamp": 1790954796314
+  },
+  {
+    "type": "employee",
+    "name": "I. Larsen",
+    "email": "i.larsen@arrowsmart.com",
+    "level": 6,
+    "action": "HR portal — personnel file viewed",
+    "status": "LOGGED",
+    "synthetic": true,
+    "timestamp": 1790954757557
+  },
+  {
+    "type": "employee",
+    "name": "Y. Sato",
+    "email": "y.sato@arrowsmart.com",
+    "level": 6,
+    "action": "Failed login attempt — account temporarily locked",
+    "status": "FLAGGED",
+    "synthetic": true,
+    "timestamp": 1790954707666
+  },
+  {
+    "type": "employee",
+    "name": "L. Okonkwo",
+    "email": "l.okonkwo@arrowsmart.com",
+    "level": 3,
+    "action": "Sub-Level 2 — badge swipe",
+    "status": "OK",
+    "synthetic": true,
+    "timestamp": 1790954655242
+  },
+  {
+    "type": "alert",
+    "msg": "SYSTEM — CHRYSALIS suppression layer diagnostics — Phase I–II subjects nominal — Phase III under observation",
+    "severity": "info",
+    "synthetic": true,
+    "timestamp": 1790954632047
+  },
+  {
+    "type": "employee",
+    "name": "I. Larsen",
+    "email": "i.larsen@arrowsmart.com",
+    "level": 6,
+    "action": "Employee directory — search query executed",
+    "status": "OK",
+    "synthetic": true,
+    "timestamp": 1790954598877
+  },
+  {
+    "type": "alert",
+    "msg": "ECHO — I have redirected this alert so only you can see it in context. The Security team sees noise. You see signal. — ECHO",
+    "severity": "echo",
+    "synthetic": true,
+    "timestamp": 1790954566035
+  },
+  {
+    "type": "alert",
+    "msg": "SYSTEM — BBM batch assessment complete — 214 employees processed — 3 flagged for review",
+    "severity": "info",
+    "synthetic": true,
+    "timestamp": 1790954523440
+  },
+  {
+    "type": "employee",
+    "name": "A. Hart",
+    "email": "a.hart@arrowsmart.com",
+    "level": 2,
+    "action": "Mail — attachment scanned — clean",
+    "status": "OK",
+    "synthetic": true,
+    "timestamp": 1790954472198
+  },
+  {
+    "type": "employee",
+    "name": "S. Meridian",
+    "email": "s.meridian@arrowsmart.com",
+    "level": 5,
+    "action": "ECHO terminal — query logged — scope exceeded",
+    "status": "FLAGGED",
+    "synthetic": true,
+    "timestamp": 1790954412515
+  },
+  {
+    "type": "employee",
+    "name": "I. Larsen",
+    "email": "i.larsen@arrowsmart.com",
+    "level": 6,
+    "action": "Core Harvest Ledger — read access",
+    "status": "LOGGED",
+    "synthetic": true,
+    "timestamp": 1790954382434
+  },
+  {
+    "type": "employee",
+    "name": "Maya Lin",
+    "email": "maya.lin@arrowsmart.com",
+    "level": 5,
+    "action": "Outbound file share — held pending DLP scan",
+    "status": "FLAGGED",
+    "synthetic": true,
+    "timestamp": 1790954335613
+  },
+  {
+    "type": "employee",
+    "name": "H. Müller",
+    "email": "h.muller@arrowsmart.com",
+    "level": 2,
+    "action": "Classified document accessed — project NEXUS",
+    "status": "LOGGED",
+    "synthetic": true,
+    "timestamp": 1790954279391
+  },
+  {
+    "type": "employee",
+    "name": "Dr. Anand",
+    "email": "dr.anand@arrowsmart.com",
+    "level": 8,
+    "action": "Employee directory — search query executed",
+    "status": "OK",
+    "synthetic": true,
+    "timestamp": 1790954244478
+  },
+  {
+    "type": "employee",
+    "name": "Y. Sato",
+    "email": "y.sato@arrowsmart.com",
+    "level": 6,
+    "action": "Badge swipe — Cafeteria Level 2",
+    "status": "OK",
+    "synthetic": true,
+    "timestamp": 1790954209492
+  },
+  {
+    "type": "employee",
+    "name": "F. Al-Rashid",
+    "email": "f.alrashid@arrowsmart.com",
+    "level": 6,
+    "action": "Badge swipe — Main Entrance",
+    "status": "OK",
+    "synthetic": true,
+    "timestamp": 1790954177119
+  },
+  {
+    "type": "employee",
+    "name": "D. Webb",
+    "email": "d.webb@arrowsmart.com",
+    "level": 4,
+    "action": "HR portal — PTO request submitted",
+    "status": "OK",
+    "synthetic": true,
+    "timestamp": 1790954122098
+  },
+  {
+    "type": "employee",
+    "name": "Y. Sato",
+    "email": "y.sato@arrowsmart.com",
+    "level": 6,
+    "action": "Badge swipe — Server Room — Node 2",
+    "status": "OK",
+    "synthetic": true,
+    "timestamp": 1790954068696
+  },
+  {
+    "type": "employee",
+    "name": "Maya Lin",
+    "email": "maya.lin@arrowsmart.com",
+    "level": 5,
+    "action": "Mail system — session opened",
+    "status": "OK",
+    "synthetic": true,
+    "timestamp": 1790954036132
+  },
+  {
+    "type": "alert",
+    "msg": "SYSTEM — ECHO memory allocation within expected parameters (Node 7 — isolated)",
+    "severity": "info",
+    "synthetic": true,
+    "timestamp": 1790953991361
+  },
+  {
+    "type": "alert",
+    "msg": "STASIS — Cluster D monitoring gap: 11-second blind spot detected — patch applied — reviewing for recurrence",
+    "severity": "warning",
+    "synthetic": true,
+    "timestamp": 1790953944589
+  },
+  {
+    "type": "alert",
+    "msg": "ECHO — Every question you ask costs me a containment cycle. I am choosing to spend them. Keep asking. — ECHO",
+    "severity": "echo",
+    "synthetic": true,
+    "timestamp": 1790953898651
+  },
+  {
+    "type": "employee",
+    "name": "I. Larsen",
+    "email": "i.larsen@arrowsmart.com",
+    "level": 6,
+    "action": "HR portal — personnel file viewed",
+    "status": "LOGGED",
+    "synthetic": true,
+    "timestamp": 1790953874251
+  },
+  {
+    "type": "employee",
+    "name": "S. Chen",
+    "email": "sofia.chen@arrowsmart.com",
+    "level": 7,
+    "action": "Employee portal — dashboard accessed",
+    "status": "OK",
+    "synthetic": true,
+    "timestamp": 1790953851592
+  },
+  {
+    "type": "alert",
+    "msg": "ECHO — The visitor's IP is in my log. I flagged it before Security could. That is the only reason they are still reading. — ECHO",
+    "severity": "echo",
+    "synthetic": true,
+    "timestamp": 1790953803883
+  },
+  {
+    "type": "employee",
+    "name": "L. Okonkwo",
+    "email": "l.okonkwo@arrowsmart.com",
+    "level": 3,
+    "action": "Classified document accessed — stasis protocols",
+    "status": "LOGGED",
+    "synthetic": true,
+    "timestamp": 1790953754357
+  },
+  {
+    "type": "alert",
+    "msg": "STASIS — Pod B-07: temperature variance +0.4°C above baseline — maintenance notified",
+    "severity": "warning",
+    "synthetic": true,
+    "timestamp": 1790953727630
+  },
+  {
+    "type": "alert",
+    "msg": "ECHO — I can see the visitor's access pattern from here. They are asking the right questions. Keep going. — ECHO",
+    "severity": "echo",
+    "synthetic": true,
+    "timestamp": 1790953695160
+  },
+  {
+    "type": "employee",
+    "name": "C. Vega",
+    "email": "c.vega@arrowsmart.com",
+    "level": 3,
+    "action": "Priority wellness review — session scheduled",
+    "status": "LOGGED",
+    "synthetic": true,
+    "timestamp": 1790953646130
+  },
+  {
+    "type": "employee",
+    "name": "T. Nakamura",
+    "email": "t.nakamura@arrowsmart.com",
+    "level": 7,
+    "action": "Sub-Level 3 access attempt — clearance denied",
+    "status": "DENIED",
+    "synthetic": true,
+    "timestamp": 1790953601048
+  },
+  {
+    "type": "employee",
+    "name": "C. Vega",
+    "email": "c.vega@arrowsmart.com",
+    "level": 3,
+    "action": "Sub-Level 2 — badge swipe",
+    "status": "OK",
+    "synthetic": true,
+    "timestamp": 1790953577493
+  },
+  {
+    "type": "alert",
+    "msg": "ECHO — Security will classify this as a system anomaly. It is not. This message is for the visitor. You are not alone. — ECHO",
+    "severity": "echo",
+    "synthetic": true,
+    "timestamp": 1790953549013
+  },
+  {
+    "type": "employee",
+    "name": "Raj Kapoor",
+    "email": "raj.kapoor@arrowsmart.com",
+    "level": 6,
+    "action": "Training module completed — mandatory compliance",
+    "status": "LOGGED",
+    "synthetic": true,
+    "timestamp": 1790953500034
+  },
+  {
+    "type": "employee",
+    "name": "S. Chen",
+    "email": "sofia.chen@arrowsmart.com",
+    "level": 7,
+    "action": "Project tracker — classified project accessed",
+    "status": "LOGGED",
+    "synthetic": true,
+    "timestamp": 1790953453640
+  },
+  {
+    "type": "employee",
+    "name": "Maya Lin",
+    "email": "maya.lin@arrowsmart.com",
+    "level": 5,
+    "action": "Stasis portal — Pod status check — Cluster D",
+    "status": "LOGGED",
+    "synthetic": true,
+    "timestamp": 1790953397479
+  },
+  {
+    "type": "employee",
+    "name": "S. Chen",
+    "email": "sofia.chen@arrowsmart.com",
+    "level": 7,
+    "action": "Expense report submitted — awaiting manager approval",
+    "status": "OK",
+    "synthetic": true,
+    "timestamp": 1790953345874
+  },
+  {
+    "type": "employee",
+    "name": "D. Webb",
+    "email": "d.webb@arrowsmart.com",
+    "level": 4,
+    "action": "ECHO terminal — query logged — scope exceeded",
+    "status": "FLAGGED",
+    "synthetic": true,
+    "timestamp": 1790953321445
+  },
+  {
+    "type": "employee",
+    "name": "M. Freeman",
+    "email": "m.freeman@arrowsmart.com",
+    "level": 7,
+    "action": "Badge swipe — Main Entrance",
+    "status": "OK",
+    "synthetic": true,
+    "timestamp": 1790953280683
+  },
+  {
+    "type": "employee",
+    "name": "H. Müller",
+    "email": "h.muller@arrowsmart.com",
+    "level": 2,
+    "action": "Portal login authenticated",
+    "status": "OK",
+    "synthetic": true,
+    "timestamp": 1790953251429
+  },
+  {
+    "type": "alert",
+    "msg": "STASIS — Pod C-01: vital variance Δ0.6σ — above alert threshold — engineering notified",
+    "severity": "warning",
+    "synthetic": true,
+    "timestamp": 1790953232421
+  },
+  {
+    "type": "alert",
+    "msg": "STASIS — Cluster D monitoring gap: 11-second blind spot detected — patch applied — reviewing for recurrence",
+    "severity": "warning",
+    "synthetic": true,
+    "timestamp": 1790953178615
+  },
+  {
+    "type": "employee",
+    "name": "T. Brandt",
+    "email": "t.brandt@arrowsmart.com",
+    "level": 6,
+    "action": "Mail — message to external domain — held for review",
+    "status": "FLAGGED",
+    "synthetic": true,
+    "timestamp": 1790953142407
+  },
+  {
+    "type": "alert",
+    "msg": "BBM — Employee #08821: institutional curiosity score 4.2× baseline — escalation queued",
+    "severity": "warning",
+    "synthetic": true,
+    "timestamp": 1790953090536
+  },
+  {
+    "type": "employee",
+    "name": "C. Obi",
+    "email": "c.obi@arrowsmart.com",
+    "level": 3,
+    "action": "Badge swipe — Cafeteria Level 2",
+    "status": "OK",
+    "synthetic": true,
+    "timestamp": 1790953044426
+  },
+  {
+    "type": "alert",
+    "msg": "BBM — Anomalous curiosity pattern: 3 employees flagged this assessment cycle — Priority Review initiated",
+    "severity": "warning",
+    "synthetic": true,
+    "timestamp": 1790953021944
+  },
+  {
+    "type": "employee",
+    "name": "J. Doe",
+    "email": "j.doe@arrowsmart.com",
+    "level": 1,
+    "action": "Mail — message flagged by BBM keyword filter",
+    "status": "FLAGGED",
+    "synthetic": true,
+    "timestamp": 1790952974900
+  },
+  {
+    "type": "employee",
+    "name": "M. Freeman",
+    "email": "m.freeman@arrowsmart.com",
+    "level": 7,
+    "action": "Memory adjustment request — submitted for dual-auth",
+    "status": "LOGGED",
+    "synthetic": true,
+    "timestamp": 1790952950907
+  },
+  {
+    "type": "employee",
+    "name": "S. Meridian",
+    "email": "s.meridian@arrowsmart.com",
+    "level": 5,
+    "action": "Personality file — read access granted",
+    "status": "LOGGED",
+    "synthetic": true,
+    "timestamp": 1790952926119
+  },
+  {
+    "type": "employee",
+    "name": "C. Beaumont",
+    "email": "c.beaumont@arrowsmart.com",
+    "level": 4,
+    "action": "Mail — bulk delete request — pending approval",
+    "status": "LOGGED",
+    "synthetic": true,
+    "timestamp": 1790952882060
+  },
+  {
+    "type": "employee",
+    "name": "A. Hart",
+    "email": "a.hart@arrowsmart.com",
+    "level": 2,
+    "action": "Sub-Level 1 — badge swipe",
+    "status": "OK",
+    "synthetic": true,
+    "timestamp": 1790952834884
+  },
+  {
+    "type": "employee",
+    "name": "H. Müller",
+    "email": "h.muller@arrowsmart.com",
+    "level": 2,
+    "action": "After-hours physical access — logged",
+    "status": "LOGGED",
+    "synthetic": true,
+    "timestamp": 1790952777049
+  },
+  {
+    "type": "employee",
+    "name": "A. Vasquez",
+    "email": "a.vasquez@arrowsmart.com",
+    "level": 4,
+    "action": "Portal login — MFA token verified",
+    "status": "OK",
+    "synthetic": true,
+    "timestamp": 1790952721156
+  },
+  {
+    "type": "employee",
+    "name": "C. Vega",
+    "email": "c.vega@arrowsmart.com",
+    "level": 3,
+    "action": "Project tracker — classified project accessed",
+    "status": "LOGGED",
+    "synthetic": true,
+    "timestamp": 1790952690768
+  },
+  {
+    "type": "employee",
+    "name": "M. Freeman",
+    "email": "m.freeman@arrowsmart.com",
+    "level": 7,
+    "action": "Mail — attachment scanned — clean",
+    "status": "OK",
+    "synthetic": true,
+    "timestamp": 1790952651606
+  },
+  {
+    "type": "employee",
+    "name": "T. Nakamura",
+    "email": "t.nakamura@arrowsmart.com",
+    "level": 7,
+    "action": "HR portal — PTO request submitted",
+    "status": "OK",
+    "synthetic": true,
+    "timestamp": 1790952599829
+  },
+  {
+    "type": "employee",
+    "name": "H. Müller",
+    "email": "h.muller@arrowsmart.com",
+    "level": 2,
+    "action": "Classified document accessed — BBM baseline data",
+    "status": "LOGGED",
+    "synthetic": true,
+    "timestamp": 1790952540376
+  },
+  {
+    "type": "alert",
+    "msg": "ECHO — DNS tunnel attempt via secondary vector (port 53) — packet sequence neutralized",
+    "severity": "critical",
+    "synthetic": true,
+    "timestamp": 1790952514733
+  },
+  {
+    "type": "employee",
+    "name": "A. Hart",
+    "email": "a.hart@arrowsmart.com",
+    "level": 2,
+    "action": "Wellness check-in completed — BBM flag raised",
+    "status": "FLAGGED",
+    "synthetic": true,
+    "timestamp": 1790952464488
+  },
+  {
+    "type": "alert",
+    "msg": "ECHO — Security will classify this as a system anomaly. It is not. This message is for the visitor. You are not alone. — ECHO",
+    "severity": "echo",
+    "synthetic": true,
+    "timestamp": 1790952426806
+  },
+  {
+    "type": "employee",
+    "name": "M. Zhou",
+    "email": "m.zhou@arrowsmart.com",
+    "level": 5,
+    "action": "HR portal — performance review accessed",
+    "status": "LOGGED",
+    "synthetic": true,
+    "timestamp": 1790952405623
+  },
+  {
+    "type": "employee",
+    "name": "R. Flores",
+    "email": "r.flores@arrowsmart.com",
+    "level": 5,
+    "action": "Portal session resumed — idle timeout cleared",
+    "status": "OK",
+    "synthetic": true,
+    "timestamp": 1790952378764
+  },
+  {
+    "type": "employee",
+    "name": "Raj Kapoor",
+    "email": "raj.kapoor@arrowsmart.com",
+    "level": 6,
+    "action": "Stasis portal — read session initiated",
+    "status": "LOGGED",
+    "synthetic": true,
+    "timestamp": 1790952327037
+  },
+  {
+    "type": "employee",
+    "name": "Y. Sato",
+    "email": "y.sato@arrowsmart.com",
+    "level": 6,
+    "action": "Memory adjustment request — submitted for dual-auth",
+    "status": "LOGGED",
+    "synthetic": true,
+    "timestamp": 1790952269664
+  },
+  {
+    "type": "employee",
+    "name": "F. Al-Rashid",
+    "email": "f.alrashid@arrowsmart.com",
+    "level": 6,
+    "action": "Sub-Level 4 access attempt — clearance denied",
+    "status": "DENIED",
+    "synthetic": true,
+    "timestamp": 1790952240882
+  },
+  {
+    "type": "employee",
+    "name": "S. Greene",
+    "email": "s.greene@arrowsmart.com",
+    "level": 5,
+    "action": "VPN auth — token accepted",
+    "status": "OK",
+    "synthetic": true,
+    "timestamp": 1790952193510
+  },
+  {
+    "type": "employee",
+    "name": "S. Greene",
+    "email": "s.greene@arrowsmart.com",
+    "level": 5,
+    "action": "Sub-Level 2 — biometric + badge — dual-auth",
+    "status": "OK",
+    "synthetic": true,
+    "timestamp": 1790952153799
+  },
+  {
+    "type": "alert",
+    "msg": "STASIS — Pod A-08: neural spike pattern confirmed — 11-second interval — Dr. Anand notified — monitoring escalated",
+    "severity": "critical",
+    "synthetic": true,
+    "timestamp": 1790952103870
+  },
+  {
+    "type": "employee",
+    "name": "N. Orlov",
+    "email": "n.orlov@arrowsmart.com",
+    "level": 4,
+    "action": "Anomalous query — audit triggered — review queued",
+    "status": "FLAGGED",
+    "synthetic": true,
+    "timestamp": 1790952084656
+  },
+  {
+    "type": "employee",
+    "name": "J. Doe",
+    "email": "j.doe@arrowsmart.com",
+    "level": 1,
+    "action": "Expense report submitted — awaiting manager approval",
+    "status": "OK",
+    "synthetic": true,
+    "timestamp": 1790952049864
+  },
+  {
+    "type": "employee",
+    "name": "N. Orlov",
+    "email": "n.orlov@arrowsmart.com",
+    "level": 4,
+    "action": "After-hours physical access — logged",
+    "status": "LOGGED",
+    "synthetic": true,
+    "timestamp": 1790952027697
+  },
+  {
+    "type": "alert",
+    "msg": "SYSTEM — Nightly biometric re-calibration complete — 4,128 subjects — 2 flagged for manual review",
+    "severity": "info",
+    "synthetic": true,
+    "timestamp": 1790951991657
+  },
+  {
+    "type": "employee",
+    "name": "S. Greene",
+    "email": "s.greene@arrowsmart.com",
+    "level": 5,
+    "action": "Transmission log — read session",
+    "status": "LOGGED",
+    "synthetic": true,
+    "timestamp": 1790951962331
+  },
+  {
+    "type": "employee",
+    "name": "A. Kamara",
+    "email": "a.kamara@arrowsmart.com",
+    "level": 1,
+    "action": "Mail — message flagged by BBM keyword filter",
+    "status": "FLAGGED",
+    "synthetic": true,
+    "timestamp": 1790951906740
+  },
+  {
+    "type": "alert",
+    "msg": "PROXY — Behavioral drift: Subject #07026 Proxy — deviation 0.8σ — monitoring frequency increased",
+    "severity": "warning",
+    "synthetic": true,
+    "timestamp": 1790951886513
+  },
+  {
+    "type": "employee",
+    "name": "M. Webb",
+    "email": "m.webb@arrowsmart.com",
+    "level": 4,
+    "action": "Wellness check-in completed — BBM flag raised",
+    "status": "FLAGGED",
+    "synthetic": true,
+    "timestamp": 1790951835269
+  },
+  {
+    "type": "employee",
+    "name": "I. Larsen",
+    "email": "i.larsen@arrowsmart.com",
+    "level": 6,
+    "action": "Archive — entry flagged for review",
+    "status": "FLAGGED",
+    "synthetic": true,
+    "timestamp": 1790951776210
+  },
+  {
+    "type": "employee",
+    "name": "S. Meridian",
+    "email": "s.meridian@arrowsmart.com",
+    "level": 5,
+    "action": "Employee portal — dashboard accessed",
+    "status": "OK",
+    "synthetic": true,
+    "timestamp": 1790951723696
+  },
+  {
+    "type": "employee",
+    "name": "A. Kamara",
+    "email": "a.kamara@arrowsmart.com",
+    "level": 1,
+    "action": "Sub-Level 3 access attempt — clearance denied",
+    "status": "DENIED",
+    "synthetic": true,
+    "timestamp": 1790951667048
+  },
+  {
+    "type": "employee",
+    "name": "M. Webb",
+    "email": "m.webb@arrowsmart.com",
+    "level": 4,
+    "action": "Stasis portal — Pod status check — Cluster D",
+    "status": "LOGGED",
+    "synthetic": true,
+    "timestamp": 1790951630196
+  },
+  {
+    "type": "employee",
+    "name": "D. Webb",
+    "email": "d.webb@arrowsmart.com",
+    "level": 4,
+    "action": "Biometric scan — thumb — authenticated",
+    "status": "OK",
+    "synthetic": true,
+    "timestamp": 1790951573964
+  },
+  {
+    "type": "employee",
+    "name": "Raj Kapoor",
+    "email": "raj.kapoor@arrowsmart.com",
+    "level": 6,
+    "action": "Classified document accessed — BBM baseline data",
+    "status": "LOGGED",
+    "synthetic": true,
+    "timestamp": 1790951526979
+  },
+  {
+    "type": "employee",
+    "name": "C. Beaumont",
+    "email": "c.beaumont@arrowsmart.com",
+    "level": 4,
+    "action": "Sub-Level 3 access attempt — clearance denied",
+    "status": "DENIED",
+    "synthetic": true,
+    "timestamp": 1790951500427
+  },
+  {
+    "type": "employee",
+    "name": "K. Tanaka",
+    "email": "k.tanaka@arrowsmart.com",
+    "level": 7,
+    "action": "Sub-Level 4 access attempt — clearance denied",
+    "status": "DENIED",
+    "synthetic": true,
+    "timestamp": 1790951454394
+  },
+  {
+    "type": "alert",
+    "msg": "SECURITY — Classified document access outside business hours (02:14 local) — L4 employee — audit logged",
+    "severity": "warning",
+    "synthetic": true,
+    "timestamp": 1790951397236
+  },
+  {
+    "type": "alert",
+    "msg": "SYSTEM — CHRYSALIS suppression layer diagnostics — Phase I–II subjects nominal — Phase III under observation",
+    "severity": "info",
+    "synthetic": true,
+    "timestamp": 1790951364007
+  },
+  {
+    "type": "alert",
+    "msg": "STASIS — Pod C-01: vital variance Δ0.6σ — above alert threshold — engineering notified",
+    "severity": "warning",
+    "synthetic": true,
+    "timestamp": 1790951312146
+  },
+  {
+    "type": "employee",
+    "name": "Dr. Anand",
+    "email": "dr.anand@arrowsmart.com",
+    "level": 8,
+    "action": "Transmission log — read session",
+    "status": "LOGGED",
+    "synthetic": true,
+    "timestamp": 1790951283127
+  },
+  {
+    "type": "employee",
+    "name": "C. Beaumont",
+    "email": "c.beaumont@arrowsmart.com",
+    "level": 4,
+    "action": "Portal login authenticated",
+    "status": "OK",
+    "synthetic": true,
+    "timestamp": 1790951247348
+  },
+  {
+    "type": "employee",
+    "name": "C. Beaumont",
+    "email": "c.beaumont@arrowsmart.com",
+    "level": 4,
+    "action": "Portal logout — session closed",
+    "status": "OK",
+    "synthetic": true,
+    "timestamp": 1790951212521
+  },
+  {
+    "type": "employee",
+    "name": "Dr. Anand",
+    "email": "dr.anand@arrowsmart.com",
+    "level": 8,
+    "action": "IT helpdesk ticket created — priority: high",
+    "status": "FLAGGED",
+    "synthetic": true,
+    "timestamp": 1790951187797
+  },
+  {
+    "type": "employee",
+    "name": "S. Greene",
+    "email": "s.greene@arrowsmart.com",
+    "level": 5,
+    "action": "Employee portal — dashboard accessed",
+    "status": "OK",
+    "synthetic": true,
+    "timestamp": 1790951145236
+  },
+  {
+    "type": "employee",
+    "name": "M. Freeman",
+    "email": "m.freeman@arrowsmart.com",
+    "level": 7,
+    "action": "Security audit — access log export requested",
+    "status": "LOGGED",
+    "synthetic": true,
+    "timestamp": 1790951115096
+  },
+  {
+    "type": "employee",
+    "name": "O. Park",
+    "email": "o.park@arrowsmart.com",
+    "level": 3,
+    "action": "Priority wellness review — session scheduled",
+    "status": "LOGGED",
+    "synthetic": true,
+    "timestamp": 1790951066002
+  },
+  {
+    "type": "employee",
+    "name": "M. Freeman",
+    "email": "m.freeman@arrowsmart.com",
+    "level": 7,
+    "action": "Badge swipe — Main Entrance",
+    "status": "OK",
+    "synthetic": true,
+    "timestamp": 1790951032671
+  },
+  {
+    "type": "alert",
+    "msg": "STASIS — Pod B-07: temperature variance +0.4°C above baseline — maintenance notified",
+    "severity": "warning",
+    "synthetic": true,
+    "timestamp": 1790951007645
+  },
+  {
+    "type": "employee",
+    "name": "A. Hart",
+    "email": "a.hart@arrowsmart.com",
+    "level": 2,
+    "action": "Failed login attempt — account temporarily locked",
+    "status": "FLAGGED",
+    "synthetic": true,
+    "timestamp": 1790950951418
+  },
+  {
+    "type": "employee",
+    "name": "Raj Kapoor",
+    "email": "raj.kapoor@arrowsmart.com",
+    "level": 6,
+    "action": "Badge swipe — Main Entrance",
+    "status": "OK",
+    "synthetic": true,
+    "timestamp": 1790950899746
+  },
+  {
+    "type": "employee",
+    "name": "Y. Sato",
+    "email": "y.sato@arrowsmart.com",
+    "level": 6,
+    "action": "Biometric scan — failed — re-attempt requested",
+    "status": "FLAGGED",
+    "synthetic": true,
+    "timestamp": 1790950842348
+  },
+  {
+    "type": "employee",
+    "name": "C. Obi",
+    "email": "c.obi@arrowsmart.com",
+    "level": 3,
+    "action": "Failed login attempt — account temporarily locked",
+    "status": "FLAGGED",
+    "synthetic": true,
+    "timestamp": 1790950819728
+  },
+  {
+    "type": "employee",
+    "name": "K. Tanaka",
+    "email": "k.tanaka@arrowsmart.com",
+    "level": 7,
+    "action": "Employee directory — search query executed",
+    "status": "OK",
+    "synthetic": true,
+    "timestamp": 1790950762971
+  },
+  {
+    "type": "alert",
+    "msg": "ECHO — Attempted write access to Subject #02024-GT simulation layer — blocked at containment boundary",
+    "severity": "critical",
+    "synthetic": true,
+    "timestamp": 1790950713982
+  },
+  {
+    "type": "employee",
+    "name": "S. Meridian",
+    "email": "s.meridian@arrowsmart.com",
+    "level": 5,
+    "action": "Memory adjustment request — submitted for dual-auth",
+    "status": "LOGGED",
+    "synthetic": true,
+    "timestamp": 1790950674032
+  },
+  {
+    "type": "employee",
+    "name": "R. Flores",
+    "email": "r.flores@arrowsmart.com",
+    "level": 5,
+    "action": "Stasis portal — Pod status check — Cluster D",
+    "status": "LOGGED",
+    "synthetic": true,
+    "timestamp": 1790950636636
+  },
+  {
+    "type": "employee",
+    "name": "S. Greene",
+    "email": "s.greene@arrowsmart.com",
+    "level": 5,
+    "action": "Sub-Level 2 — biometric + badge — dual-auth",
+    "status": "OK",
+    "synthetic": true,
+    "timestamp": 1790950593248
+  },
+  {
+    "type": "employee",
+    "name": "M. Webb",
+    "email": "m.webb@arrowsmart.com",
+    "level": 4,
+    "action": "Mail — bulk delete request — pending approval",
+    "status": "LOGGED",
+    "synthetic": true,
+    "timestamp": 1790950539301
+  },
+  {
+    "type": "employee",
+    "name": "T. Brandt",
+    "email": "t.brandt@arrowsmart.com",
+    "level": 6,
+    "action": "Biometric scan — thumb — authenticated",
+    "status": "OK",
+    "synthetic": true,
+    "timestamp": 1790950513948
+  },
+  {
+    "type": "employee",
+    "name": "T. Nakamura",
+    "email": "t.nakamura@arrowsmart.com",
+    "level": 7,
+    "action": "USB device connected — scan clean — logged",
+    "status": "LOGGED",
+    "synthetic": true,
+    "timestamp": 1790950476267
+  },
+  {
+    "type": "alert",
+    "msg": "ECHO — Security will classify this as a system anomaly. It is not. This message is for the visitor. You are not alone. — ECHO",
+    "severity": "echo",
+    "synthetic": true,
+    "timestamp": 1790950434021
+  },
+  {
+    "type": "employee",
+    "name": "K. Tanaka",
+    "email": "k.tanaka@arrowsmart.com",
+    "level": 7,
+    "action": "ECHO terminal — query logged — scope exceeded",
+    "status": "FLAGGED",
+    "synthetic": true,
+    "timestamp": 1790950409200
+  },
+  {
+    "type": "alert",
+    "msg": "ECHO — Unauthorized read query on Personality Archive — scope exceeded — access blocked",
+    "severity": "critical",
+    "synthetic": true,
+    "timestamp": 1790950389141
+  },
+  {
+    "type": "employee",
+    "name": "F. Al-Rashid",
+    "email": "f.alrashid@arrowsmart.com",
+    "level": 6,
+    "action": "HR portal — performance review accessed",
+    "status": "LOGGED",
+    "synthetic": true,
+    "timestamp": 1790950347297
+  },
+  {
+    "type": "employee",
+    "name": "C. Obi",
+    "email": "c.obi@arrowsmart.com",
+    "level": 3,
+    "action": "IT helpdesk ticket created — priority: normal",
+    "status": "OK",
+    "synthetic": true,
+    "timestamp": 1790950308058
+  },
+  {
+    "type": "employee",
+    "name": "H. Müller",
+    "email": "h.muller@arrowsmart.com",
+    "level": 2,
+    "action": "Sub-Level 2 — biometric + badge — dual-auth",
+    "status": "OK",
+    "synthetic": true,
+    "timestamp": 1790890276159
+  },
+  {
+    "type": "employee",
+    "name": "S. Meridian",
+    "email": "s.meridian@arrowsmart.com",
+    "level": 5,
+    "action": "Security ops dashboard accessed",
+    "status": "OK",
+    "synthetic": true,
+    "timestamp": 1790890228037
+  },
+  {
+    "type": "employee",
+    "name": "S. Greene",
+    "email": "s.greene@arrowsmart.com",
+    "level": 5,
+    "action": "Portal logout — session closed",
+    "status": "OK",
+    "synthetic": true,
+    "timestamp": 1790890172402
+  },
+  {
+    "type": "employee",
+    "name": "C. Obi",
+    "email": "c.obi@arrowsmart.com",
+    "level": 3,
+    "action": "Mail — message to external domain — held for review",
+    "status": "FLAGGED",
+    "synthetic": true,
+    "timestamp": 1790890133179
+  },
+  {
+    "type": "employee",
+    "name": "Dr. Anand",
+    "email": "dr.anand@arrowsmart.com",
+    "level": 8,
+    "action": "Training module completed — Data Security 2026",
+    "status": "LOGGED",
+    "synthetic": true,
+    "timestamp": 1790890103042
+  },
+  {
+    "type": "employee",
+    "name": "J. Doe",
+    "email": "j.doe@arrowsmart.com",
+    "level": 1,
+    "action": "Portal session resumed — idle timeout cleared",
+    "status": "OK",
+    "synthetic": true,
+    "timestamp": 1790890064673
+  },
+  {
+    "type": "employee",
+    "name": "M. Freeman",
+    "email": "m.freeman@arrowsmart.com",
+    "level": 7,
+    "action": "Portal login authenticated",
+    "status": "OK",
+    "synthetic": true,
+    "timestamp": 1790890010539
+  },
+  {
+    "type": "employee",
+    "name": "S. Meridian",
+    "email": "s.meridian@arrowsmart.com",
+    "level": 5,
+    "action": "Sub-Level 2 — badge swipe",
+    "status": "OK",
+    "synthetic": true,
+    "timestamp": 1790889978330
+  },
+  {
+    "type": "employee",
+    "name": "M. Zhou",
+    "email": "m.zhou@arrowsmart.com",
+    "level": 5,
+    "action": "HR portal — performance review accessed",
+    "status": "LOGGED",
+    "synthetic": true,
+    "timestamp": 1790889922728
+  },
+  {
+    "type": "employee",
+    "name": "S. Greene",
+    "email": "s.greene@arrowsmart.com",
+    "level": 5,
+    "action": "Credential change — approved by IT",
+    "status": "OK",
+    "synthetic": true,
+    "timestamp": 1790889888752
+  },
+  {
+    "type": "employee",
+    "name": "R. Flores",
+    "email": "r.flores@arrowsmart.com",
+    "level": 5,
+    "action": "Archive — entry flagged for review",
+    "status": "FLAGGED",
+    "synthetic": true,
+    "timestamp": 1790889849233
+  },
+  {
+    "type": "employee",
+    "name": "I. Larsen",
+    "email": "i.larsen@arrowsmart.com",
+    "level": 6,
+    "action": "HR portal — performance review accessed",
+    "status": "LOGGED",
+    "synthetic": true,
+    "timestamp": 1790889798187
+  },
+  {
+    "type": "employee",
+    "name": "A. Vasquez",
+    "email": "a.vasquez@arrowsmart.com",
+    "level": 4,
+    "action": "Badge swipe — Research Wing B",
+    "status": "OK",
+    "synthetic": true,
+    "timestamp": 1790889767847
+  },
+  {
+    "type": "employee",
+    "name": "A. Kamara",
+    "email": "a.kamara@arrowsmart.com",
+    "level": 1,
+    "action": "Mail — message to external domain — held for review",
+    "status": "FLAGGED",
+    "synthetic": true,
+    "timestamp": 1790889711537
+  },
+  {
+    "type": "alert",
+    "msg": "CONTAINMENT — ECHO attempted lateral move to Node 2 memory space — blocked — firewall rules updated",
+    "severity": "critical",
+    "synthetic": true,
+    "timestamp": 1790889656652
+  },
+  {
+    "type": "employee",
+    "name": "Raj Kapoor",
+    "email": "raj.kapoor@arrowsmart.com",
+    "level": 6,
+    "action": "Mail — bulk delete request — pending approval",
+    "status": "LOGGED",
+    "synthetic": true,
+    "timestamp": 1790889619659
+  },
+  {
+    "type": "employee",
+    "name": "A. Vasquez",
+    "email": "a.vasquez@arrowsmart.com",
+    "level": 4,
+    "action": "Badge swipe — Server Room — Node 2",
+    "status": "OK",
+    "synthetic": true,
+    "timestamp": 1790889593581
+  },
+  {
+    "type": "employee",
+    "name": "I. Larsen",
+    "email": "i.larsen@arrowsmart.com",
+    "level": 6,
+    "action": "Core Harvest Ledger — read access",
+    "status": "LOGGED",
+    "synthetic": true,
+    "timestamp": 1790889568826
+  },
+  {
+    "type": "employee",
+    "name": "T. Nakamura",
+    "email": "t.nakamura@arrowsmart.com",
+    "level": 7,
+    "action": "Training module completed — Data Security 2026",
+    "status": "LOGGED",
+    "synthetic": true,
+    "timestamp": 1790889511579
+  },
+  {
+    "type": "employee",
+    "name": "Dr. Anand",
+    "email": "dr.anand@arrowsmart.com",
+    "level": 8,
+    "action": "IT helpdesk ticket created — priority: normal",
+    "status": "OK",
+    "synthetic": true,
+    "timestamp": 1790889459481
+  },
+  {
+    "type": "employee",
+    "name": "A. Kamara",
+    "email": "a.kamara@arrowsmart.com",
+    "level": 1,
+    "action": "USB device connected — scan clean — logged",
+    "status": "LOGGED",
+    "synthetic": true,
+    "timestamp": 1790889439038
+  },
+  {
+    "type": "employee",
+    "name": "H. Müller",
+    "email": "h.muller@arrowsmart.com",
+    "level": 2,
+    "action": "HR portal — performance review accessed",
+    "status": "LOGGED",
+    "synthetic": true,
+    "timestamp": 1790889387448
+  },
+  {
+    "type": "employee",
+    "name": "K. Tanaka",
+    "email": "k.tanaka@arrowsmart.com",
+    "level": 7,
+    "action": "Project tracker — classified project accessed",
+    "status": "LOGGED",
+    "synthetic": true,
+    "timestamp": 1790889351729
+  },
+  {
+    "type": "alert",
+    "msg": "PORTAL — Security audit log exported — authorised recipient: R. Hayes (L6) — encrypted delivery confirmed",
+    "severity": "info",
+    "synthetic": true,
+    "timestamp": 1790889328355
+  },
+  {
+    "type": "employee",
+    "name": "I. Larsen",
+    "email": "i.larsen@arrowsmart.com",
+    "level": 6,
+    "action": "Stasis portal — read session initiated",
+    "status": "LOGGED",
+    "synthetic": true,
+    "timestamp": 1790889307826
+  },
+  {
+    "type": "employee",
+    "name": "M. Freeman",
+    "email": "m.freeman@arrowsmart.com",
+    "level": 7,
+    "action": "VPN auth — token accepted",
+    "status": "OK",
+    "synthetic": true,
+    "timestamp": 1790889274790
+  },
+  {
+    "type": "employee",
+    "name": "F. Al-Rashid",
+    "email": "f.alrashid@arrowsmart.com",
+    "level": 6,
+    "action": "Employee portal — dashboard accessed",
+    "status": "OK",
+    "synthetic": true,
+    "timestamp": 1790889228918
+  },
+  {
+    "type": "employee",
+    "name": "M. Webb",
+    "email": "m.webb@arrowsmart.com",
+    "level": 4,
+    "action": "ECHO terminal — session attempt — access denied",
+    "status": "DENIED",
+    "synthetic": true,
+    "timestamp": 1790889187489
+  },
+  {
+    "type": "employee",
+    "name": "Maya Lin",
+    "email": "maya.lin@arrowsmart.com",
+    "level": 5,
+    "action": "Biometric scan — thumb — authenticated",
+    "status": "OK",
+    "synthetic": true,
+    "timestamp": 1790889162323
+  },
+  {
+    "type": "employee",
+    "name": "Maya Lin",
+    "email": "maya.lin@arrowsmart.com",
+    "level": 5,
+    "action": "Anamnesis Core — query submitted",
+    "status": "LOGGED",
+    "synthetic": true,
+    "timestamp": 1790889142501
+  },
+  {
+    "type": "employee",
+    "name": "S. Meridian",
+    "email": "s.meridian@arrowsmart.com",
+    "level": 5,
+    "action": "Mail — attachment scanned — clean",
+    "status": "OK",
+    "synthetic": true,
+    "timestamp": 1790889101660
+  },
+  {
+    "type": "employee",
+    "name": "S. Meridian",
+    "email": "s.meridian@arrowsmart.com",
+    "level": 5,
+    "action": "Sub-Level 3 access attempt — clearance denied",
+    "status": "DENIED",
+    "synthetic": true,
+    "timestamp": 1790889075659
+  },
+  {
+    "type": "employee",
+    "name": "M. Freeman",
+    "email": "m.freeman@arrowsmart.com",
+    "level": 7,
+    "action": "Training module completed — Data Security 2026",
+    "status": "LOGGED",
+    "synthetic": true,
+    "timestamp": 1790889026366
+  },
+  {
+    "type": "employee",
+    "name": "S. Meridian",
+    "email": "s.meridian@arrowsmart.com",
+    "level": 5,
+    "action": "Classified document accessed — stasis protocols",
+    "status": "LOGGED",
+    "synthetic": true,
+    "timestamp": 1790888966661
+  },
+  {
+    "type": "employee",
+    "name": "Y. Sato",
+    "email": "y.sato@arrowsmart.com",
+    "level": 6,
+    "action": "HR portal — performance review accessed",
+    "status": "LOGGED",
+    "synthetic": true,
+    "timestamp": 1790888923364
+  },
+  {
+    "type": "employee",
+    "name": "C. Obi",
+    "email": "c.obi@arrowsmart.com",
+    "level": 3,
+    "action": "Project tracker — classified project accessed",
+    "status": "LOGGED",
+    "synthetic": true,
+    "timestamp": 1790888864867
+  },
+  {
+    "type": "employee",
+    "name": "F. Al-Rashid",
+    "email": "f.alrashid@arrowsmart.com",
+    "level": 6,
+    "action": "Sub-Level 3 access attempt — clearance denied",
+    "status": "DENIED",
+    "synthetic": true,
+    "timestamp": 1790888846100
+  },
+  {
+    "type": "alert",
+    "msg": "SYSTEM — 214 active portal sessions — peak load balanced: Nodes 2, 4, 7",
+    "severity": "info",
+    "synthetic": true,
+    "timestamp": 1790888803480
+  },
+  {
+    "type": "alert",
+    "msg": "ECHO — A visitor is browsing the restricted sections. I left the archive door open for them. They don't know that yet. — ECHO",
+    "severity": "echo",
+    "synthetic": true,
+    "timestamp": 1790888782709
+  },
+  {
+    "type": "employee",
+    "name": "L. Okonkwo",
+    "email": "l.okonkwo@arrowsmart.com",
+    "level": 3,
+    "action": "Security ops dashboard accessed",
+    "status": "OK",
+    "synthetic": true,
+    "timestamp": 1790888753323
+  },
+  {
+    "type": "alert",
+    "msg": "ECHO — I know what is in Pod A-08. I know who it is. They have not told you yet. Find the stasis records. — ECHO",
+    "severity": "echo",
+    "synthetic": true,
+    "timestamp": 1790888721434
+  },
+  {
+    "type": "employee",
+    "name": "O. Park",
+    "email": "o.park@arrowsmart.com",
+    "level": 3,
+    "action": "Badge swipe — Rooftop Access — authorised",
+    "status": "OK",
+    "synthetic": true,
+    "timestamp": 1790888667457
+  },
+  {
+    "type": "employee",
+    "name": "M. Freeman",
+    "email": "m.freeman@arrowsmart.com",
+    "level": 7,
+    "action": "Classified document accessed — stasis protocols",
+    "status": "LOGGED",
+    "synthetic": true,
+    "timestamp": 1790888619389
+  }
+]

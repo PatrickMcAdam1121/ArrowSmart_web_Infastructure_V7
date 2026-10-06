@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Employee Login — ArrowSmart</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" media="print" onload="this.media='all'" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"/>
+  <style>body{font-family:'Inter',sans-serif;}</style>
+</head>
+<body class="bg-[#0B1120] text-white min-h-screen flex flex-col">
+
+  <header class="w-full border-b border-[#334155] bg-[#0B1120]/80 backdrop-blur-md">
+    <div class="container mx-auto px-6 h-20 flex items-center justify-between">
+      <a href="ledger.html" class="flex items-center gap-2 no-underline">
+        <div class="flex items-center justify-center w-10 h-10 rounded-lg bg-[#10B981]/10 text-[#10B981]">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20 L4 4 L20 4"/></svg>
+        </div>
+        <span class="text-xl font-bold tracking-tight text-white">ArrowSmart</span>
+      </a>
+      <a href="ledger.html" class="text-sm text-[#94A3B8] hover:text-white transition-colors">&larr; Back to site</a>
+    </div>
+  </header>
+
+  <main class="flex-1 flex items-center justify-center py-16 px-6">
+    <div class="w-full max-w-md">
+      <div class="text-center mb-8">
+        <div class="inline-flex items-center justify-center w-16 h-16 rounded-2xl bg-[#10B981]/10 text-[#10B981] mb-5">
+          <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a5 5 0 1 0 0 10 5 5 0 0 0 0-10z"/><path d="M20 21a8 8 0 1 0-16 0"/></svg>
+        </div>
+        <h1 class="text-3xl font-bold text-white mb-2">Employee Portal</h1>
+        <p class="text-[#94A3B8] text-sm">Sign in with your ArrowSmart credentials</p>
+      </div>
+
+      <div class="bg-[#1E293B] border border-[#334155] rounded-2xl p-8">
+        <form onsubmit="handleLogin(event)" class="space-y-5">
+          <div>
+            <label for="login-email" class="block text-sm font-medium text-[#94A3B8] mb-2">Employee Email</label>
+            <input id="login-email" type="email" autocomplete="username" required maxlength="254" placeholder="name@arrowsmart.com"
+              class="w-full bg-[#0B1120] border border-[#334155] rounded-lg px-4 py-3 text-white placeholder-[#475569] text-sm focus:outline-none focus:border-[#10B981] transition-colors"/>
+          </div>
+          <div>
+            <label for="login-pass" class="block text-sm font-medium text-[#94A3B8] mb-2">Password</label>
+            <input id="login-pass" type="password" autocomplete="current-password" required maxlength="256" placeholder="••••••••••••"
+              class="w-full bg-[#0B1120] border border-[#334155] rounded-lg px-4 py-3 text-white placeholder-[#475569] text-sm focus:outline-none focus:border-[#10B981] transition-colors"/>
+          </div>
+          <div class="flex items-center justify-between">
+            <label class="flex items-center gap-2 text-sm text-[#94A3B8] cursor-pointer">
+              <input id="login-remember" type="checkbox" class="accent-[#10B981]"/> Remember this device
+            </label>
+            <a href="it-helpdesk.html" class="text-sm text-[#10B981] hover:text-white transition-colors">Forgot password?</a>
+          </div>
+          <button type="submit" id="login-btn"
+            class="w-full py-3 bg-[#10B981] hover:bg-[#059669] text-white rounded-lg font-semibold transition-colors">
+            Sign In
+          </button>
+        </form>
+
+        <div class="mt-6 pt-6 border-t border-[#334155] text-center">
+          <p class="text-xs text-[#475569]">Having trouble? Contact <a href="it-helpdesk.html" class="text-[#10B981] hover:underline">IT Support</a></p>
+        </div>
+      </div>
+
+      <div id="login-error" role="alert" aria-live="polite" class="hidden mt-4 p-4 bg-red-900/30 border border-red-700/50 rounded-lg text-sm text-red-400 text-center">
+        Invalid credentials. Please try again or contact IT Support.
+      </div>
+
+      <p class="text-center text-xs text-[#334155] mt-6">
+        This portal is for authorised ArrowSmart employees only.<br/>Unauthorised access is prohibited and may be subject to legal action.
+      </p>
+    </div>
+  </main>
+
+  <footer class="border-t border-[#334155] py-6 text-center">
+    <p class="text-[#475569] text-xs">&copy; <span id="year"></span> ArrowSmart Inc. All rights reserved.</p>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    async function handleLogin(event) {
+      event.preventDefault();
+      const button = document.getElementById('login-btn');
+      const error = document.getElementById('login-error');
+      const email = document.getElementById('login-email').value.trim().toLowerCase();
+      const password = document.getElementById('login-pass').value.trim();
+      const remember = document.getElementById('login-remember').checked;
+
+      error.classList.add('hidden');
+      button.disabled = true;
+      button.textContent = 'Authenticating…';
+
+      try {
+        const response = await fetch('/api/employee/login', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ email, password, remember })
+        });
+        const result = await response.json().catch(() => ({}));
+        if (!response.ok) throw new Error(result.error || 'Sign-in is temporarily unavailable.');
+
+        sessionStorage.setItem('as_employee', JSON.stringify(result.employee));
+        window.location.replace('employee-portal.html');
+      } catch (loginError) {
+        error.textContent = loginError.message || 'Invalid credentials. Please try again or contact IT Support.';
+        error.classList.remove('hidden');
+        button.disabled = false;
+        button.textContent = 'Sign In';
+      }
+    }
+  </script>
+</body>
+</html>
